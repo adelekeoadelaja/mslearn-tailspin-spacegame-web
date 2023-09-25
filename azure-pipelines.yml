@@ -2,7 +2,7 @@ trigger:
 - '*' #* indicates all branches
 
 pool:
-  name: Default #replace if needed with name of your agent pool
+  name: Default # replace if needed with name of your agent pool
 
 variables:
   buildConfiguration: 'Release'
